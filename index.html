@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="loading.css">
+<link rel="stylesheet" type="text/css" href="inview.css">
+<link rel="stylesheet" type="text/css" href="balloon.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico">
+<link rel="shortcut icon" href="favicon.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TakeruKomoriPortfolio</title>
+</head>
+<body>
+<!-- ローディングアニメーション -->
+<div id="is-loading">
+ <div id="loading">
+  <img src="img/logo.svg" alt="loading" />
+ </div>
+</div>
+<!-- コンテンツ -->
+<div id="wrap">
+	<div class="background-img">
+	<img class="liquid imgBox inview_re fadeIn_right" src="img/liquid.svg" alt="">
+	<img class="dot-circle imgBox inview_re fadeIn_left" src="img/dot-circle.svg" alt="">
+	<img class="leaf imgBox inview_re fadeIn_left_slow" src="img/leaf.svg" alt="">
+	<img class="noise imgBox inview_re fadeIn_right_slow" src="img/noise.svg" alt="">
+	<img class="bar imgBox inview_re fadeIn_right" src="img/bar.svg" alt="">
+
+	</div>
+	<header>
+	<a href="index.html">
+	<img class="logo" src="img/logo.svg" alt="">
+	</a>
+	</header>
+	<nav>
+		<ul>
+			<li class="border-line"><a href="#01">About</a></li>
+			<li class="border-line"><a href="#02">works</a></li>
+		</ul>
+	</nav>
+	<div class="about" id="01">
+	<img class="plofile imgBox inview_re fadeIn_left" src="img/plofile_2.png" alt="">
+	<div class="kaigyo"></div>
+	<img class="name" src="img/name.svg" alt="">
+	<div class="kaigyo"></div>
+	<p>九州産業大学　芸術学部<br>ソーシャルデザイン学科</p>
+	<p>2000年生まれ、福岡県育ち。<br>音楽、映画鑑賞とスパイスカレーが好き。</p>
+	<a class="pdflink" href="https://drive.google.com/file/d/1JRoEiMsFfhwxdFwx-hM9-U6hQodOhkE6/view?usp=sharing" text-color="#f9f9f9"><br><br>・冊子用ポートフォリオPDF<br><br></a>
+
+	</div>
+	<div class="works" id="02">
+	<img class="works-web" src="img/works-web.svg" alt="">
+	<div class="kaigyo"></div>
+	<div class="inline-wrap">
+	<span aria-label="NormotionGraphics" data-balloon-length="medium" data-balloon-pos="down">
+		<a href="opus/normotion.html"><img class="opus" src="img/normotion_1-100.jpg" alt=""></a>
+	</span>
+	<span aria-label="その他の作品" data-balloon-length="medium" data-balloon-pos="down">
+	    <a href="opus/otherweb.html"><img class="opus" src="img/other-100.jpg" alt=""></a>
+	</span>
+	<div class="kaigyo"></div>
+	</div>
+	</div>
+	<div class="works">
+	<img class="works-graphick" src="img/works-graphick.svg" alt="">
+	<div class="kaigyo"></div>
+	<div class="inline-wrap">
+  <span aria-label="春を綴じる　ジャケット制作" data-balloon-length="medium" data-balloon-pos="down">
+  	    <a href="opus/harutozi.html"><img class="opus" src="img/harutozi3.png" alt=""></a>
+  </span>
+	<span aria-label="アイランドシティ VI" data-balloon-length="medium" data-balloon-pos="down">
+	    <a href="opus/island.html"><img class="opus" src="img/island_1-100.jpg" alt=""></a>
+	</span>
+    <span aria-label="パン工房ふるる リニューアル" data-balloon-length="medium" data-balloon-pos="down">
+	    <a href="opus/fururu.html"><img class="opus" src="img/fururu_1-100.jpg" alt=""></a>
+	</span>
+	<div class="kaigyo"></div>
+  <!--
+	<span aria-label="その他の作品" data-balloon-length="medium" data-balloon-pos="down">
+	    <a href="opus/other.html"><img class="opus" src="img/other-100.jpg" alt=""></a>
+	</span>
+-->
+
+	</div>
+	</div>
+	<div class="works">
+	<img class="works-movie" src="img/works-movie.svg" alt="">
+	<div class="kaigyo"></div>
+	<div class="inline-wrap">
+	<span aria-label="mortiongraphics" data-balloon-length="medium" data-balloon-pos="down">
+	    <a href="opus/mortiongraphics.html"><img class="opus-blk" src="img/mortiongraph_1-100.jpg" alt=""></a>
+	</span>
+	<span aria-label="stopmotion" data-balloon-length="medium" data-balloon-pos="down">
+	<a href="opus/stopmotion.html"><img class="opus-blk" src="img/time_1-100.jpg" width="50%" alt=""></a>
+	</span>
+
+	</div>
+	</div>
+
+	<footer><p>Copyright ©︎ NormotionGraphics.All Rights Reserved.</p></footer>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/loading.js"></script>
+<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/smooth_scroll.js"></script>
+</body>
+</html>
